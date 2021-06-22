@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login App</string>
+    <string name="emailLog">Email</string>
+    <string name="passLog">Password</string>
+    <string name="btnLgoIn">Login</string>
+    <string name="linkSignUp">Sign Up</string>
+    <string name="createAccCaption">Don\'t have an Account?</string>
+    <string name="lang">Language</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>አማርኛ</item>
+    </string-array>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Father Name</string>
+    <string name="btnRegister">Register</string>
+    <string name="passConfirm">Confirm Password</string>
+</resources>

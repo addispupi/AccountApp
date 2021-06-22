@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">መግቢያ መተግበሪያ</string>
+    <string name="emailLog">ኢሜል</string>
+    <string name="passLog">ማለፊያ ቃል</string>
+    <string name="btnLgoIn">መግቢያ</string>
+    <string name="linkSignUp">ይመዝገቡ</string>
+    <string name="createAccCaption">አካውንት የሎትም?</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>አማርኛ</item>
+    </string-array>
+    <string name="lang">ቋንቋ</string>
+    <string name="first_name">የራስ ስም</string>
+    <string name="second_name">የአባት ስም</string>
+    <string name="btnRegister">መመዝገብ</string>
+    <string name="passConfirm">ድጋሚ ማለፊያ ቃል</string>
+</resources>
