@@ -11,7 +11,7 @@
         android:id="@+id/lanSpinner"
         android:layout_width="150dp"
         android:layout_height="40dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="10dp"
         android:entries="@array/languages"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,8 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginTop="300dp"
         android:background="@drawable/custom_input"
         android:drawableEnd="@drawable/custom_email"
         android:hint="@string/emailLog"
@@ -33,7 +33,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/pass"
@@ -57,7 +57,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="10dp"
         android:lineSpacingExtra="14sp"
         android:text="@string/createAccCaption"
         android:textSize="20sp"
@@ -69,11 +69,11 @@
         android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
-        android:lineSpacingExtra="14sp"
-        android:text="@string/linkSignUp"
+        android:layout_marginBottom="80dp"
         android:cursorVisible="true"
+        android:lineSpacingExtra="14sp"
         android:onClick="userRegister"
+        android:text="@string/linkSignUp"
         android:textSize="20sp"
         android:textStyle="bold"
         android:typeface="normal"
@@ -83,15 +83,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="80dp"
         android:background="@drawable/round_shape"
         android:lineSpacingExtra="20sp"
-        android:onClick="clickLogin"
         android:shadowColor="@color/primaryHColor"
         android:text="@string/btnLgoIn"
         android:textSize="18sp"
@@ -104,13 +103,24 @@
         android:id="@+id/imageView"
         android:layout_width="179dp"
         android:layout_height="171dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvAttemptInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/attempt"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

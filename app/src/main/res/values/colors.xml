@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="secondaryColor">#0A1F97</color>
-    <color name="secondaryHColor">#1F39CD</color>
+    <color name="secondaryColor">#B32F05</color>
+    <color name="secondaryHColor">#B63C15</color>
     <color name="primaryColor">#FF5722</color>
     <color name="primaryHColor">#F67E59</color>
     <color name="black">#FF000000</color>

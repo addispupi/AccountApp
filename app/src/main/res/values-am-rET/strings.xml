@@ -15,4 +15,6 @@
     <string name="second_name">የአባት ስም</string>
     <string name="btnRegister">መመዝገብ</string>
     <string name="passConfirm">ድጋሚ ማለፊያ ቃል</string>
+    <string name="welcoming">ሰላም፣</string>
+    <string name="attempt">"የቀረው ሙከራ: "</string>
 </resources>

@@ -6,12 +6,14 @@
     <string name="linkSignUp">Sign Up</string>
     <string name="createAccCaption">Don\'t have an Account?</string>
     <string name="lang">Language</string>
-    <string-array name="languages">
-        <item>English</item>
-        <item>አማርኛ</item>
-    </string-array>
     <string name="first_name">First Name</string>
     <string name="second_name">Father Name</string>
     <string name="btnRegister">Register</string>
     <string name="passConfirm">Confirm Password</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>አማርኛ</item>
+    </string-array>
+    <string name="welcoming">"Hi, "</string>
+    <string name="attempt">No. of attempts remaining:</string>
 </resources>
