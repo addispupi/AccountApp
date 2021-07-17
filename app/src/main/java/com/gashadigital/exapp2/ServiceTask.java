@@ -31,8 +31,8 @@ public class ServiceTask extends AsyncTask<String,Void,String> {
 
     @Override
     protected String doInBackground(String... params) {
-        String url_reg = "http://192.168.1.3/git/AccountApp/mod_register.php";
-        String url_log = "http://192.168.1.3/git/AccountApp/mod_login.php";
+        String url_reg = "http://127.0.0.1/git/AccountApp/mod_register.php";
+        String url_log = "http://127.0.0.1/git/AccountApp/mod_login.php";
         String method = params[0];
         if(method.equals("Register")) {
             String first_name = params[1];
@@ -65,6 +65,9 @@ public class ServiceTask extends AsyncTask<String,Void,String> {
             }
         }
 
+        if(method.equals("Login")){
+
+        }
         return null;
     }
 
